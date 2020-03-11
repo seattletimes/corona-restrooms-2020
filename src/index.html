@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <%= t.include("partials/_head.html", grunt.data.json) %>
+    <% if (json.project.production && !json.project.embedded) { %>
+      <%= t.include("partials/_dataLayer.html") %>
+      <%= t.include("partials/_gtm.html") %>
+    <% } %>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <% if (json.project.production && !json.project.embedded) { %>
+      <%= t.include("partials/_gtmNoScript.html") %>
+    <% } %>
+    <responsive-child class="map-container">
+            <div class="outmost">
+              <section class="chatter">
+                <h1>If you don't have a home, where can you find a public restroom to wash your hands?</h1>
+                <p>The Seattle Times chose not to include city-funded or supported sites that our reporting
+                  identified as not actually allowing access to the general public. Some of these sites included
+                  are population specific, ie, they are only for women or young adults.</p>
+              </section>
+
+              <div class="colorKey">
+                <div>Key:</div>
+                <div class="key"><div class="color laundry"></div> Laundry, showers and restrooms available</div>
+                <div class="key"><div class="color showers"></div> Showers and restrooms available</div>
+                <div class="key"><div class="color restrooms"></div> Restrooms available</div>
+              </div>
+
+              <div class="buttonContainer">
+                <div class="button selected" id="all">See all available facilities</div>
+                <div class="button" id="pub">See only publicly available facilities</div>
+                <div class="button" id="open">See only 24-hour facilities</div>
+              </div>
+
+              <div class="aspect-ratio-outer">
+                <div class="aspect-ratio-inner">
+
+                  <leaflet-map zoom=10>
+                    <tile-layer layer="cartoPositron"></tile-layer>
+                  </leaflet-map>
+
+                </div>
+              </div>
+
+
+              <div class="source">
+                <span style="visibility:hidden;">Source</span>
+                <span class="credit">LAUREN FLANNERY / THE SEATTLE TIMES</div>
+            </div>
+          </responsive-child>
+        <script>
+          window.course = <%= JSON.stringify(json.Sheet1) %>;
+        </script>
+
+    <script src="app.js" async></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_analytics.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>

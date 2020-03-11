@@ -1,0 +1,253 @@
+[
+  {
+    "True Hope": "Lake Union Village",
+    "LIHI": "LIHI",
+    "Tiny House Village": "Tiny House Village",
+    "": "",
+    "1714 E Yesler Way Seattle, WA 98122": "800 Aloha St. Seattle, WA 98109",
+    "47.601829": 47.627281,
+    "-122.310141": -122.341022
+  },
+  {
+    "True Hope": "Northlake",
+    "LIHI": "LIHI",
+    "Tiny House Village": "Tiny House Village",
+    "": "",
+    "1714 E Yesler Way Seattle, WA 98122": "3814 4th Ave NE. Seattle, WA 98105",
+    "47.601829": 47.654301,
+    "-122.310141": -122.32435
+  },
+  {
+    "True Hope": "Whittier Women's Villag",
+    "LIHI": "LIHI",
+    "Tiny House Village": "Tiny House Village",
+    "": "",
+    "1714 E Yesler Way Seattle, WA 98122": "8030 15th Ave NW Seattle, WA 98117",
+    "47.601829": 47.687899,
+    "-122.310141": -122.37654
+  },
+  {
+    "True Hope": "Interbay Tiny village",
+    "LIHI": "LIHI",
+    "Tiny House Village": "Tiny House Village",
+    "": "",
+    "1714 E Yesler Way Seattle, WA 98122": "1601 15th Ave W. Seattle, WA 98119",
+    "47.601829": 47.633717,
+    "-122.310141": -122.377188
+  },
+  {
+    "True Hope": "Othello Village",
+    "LIHI": "LIHI",
+    "Tiny House Village": "Tiny House Village",
+    "": "",
+    "1714 E Yesler Way Seattle, WA 98122": "7544 M L King Jr. Way S. Seattle, WA 98119",
+    "47.601829": 47.631307,
+    "-122.310141": -122.3579
+  },
+  {
+    "True Hope": "Georgetown Village",
+    "LIHI": "LIHI",
+    "Tiny House Village": "Tiny House Village",
+    "": "",
+    "1714 E Yesler Way Seattle, WA 98122": "1000 S. Myrtle St. Seattle, WA 98019",
+    "47.601829": 47.539654,
+    "-122.310141": -122.319928
+  },
+  {
+    "True Hope": "Myers Way / Camp Second Chance",
+    "LIHI": "LIHI",
+    "Tiny House Village": "Tiny House Village",
+    "": "",
+    "1714 E Yesler Way Seattle, WA 98122": "9701 Myers Way Seattle, WA 98108",
+    "47.601829": 47.516502,
+    "-122.310141": -122.333131
+  },
+  {
+    "True Hope": "CSC Day Center",
+    "LIHI": "Chief Seattle Club",
+    "Tiny House Village": "City-funded Day Centers",
+    "": "",
+    "1714 E Yesler Way Seattle, WA 98122": "410 2nd Ave Ext, Seattle, WA 98104",
+    "47.601829": 47.60126,
+    "-122.310141": -122.331261
+  },
+  {
+    "True Hope": "Drop-In Center",
+    "LIHI": "Bridge Care Center",
+    "Tiny House Village": "Restrooms",
+    "": 0,
+    "1714 E Yesler Way Seattle, WA 98122": "5710 22nd Ave. NW, Bldg. B, Seattle, WA 98107",
+    "47.601829": 47.670634,
+    "-122.310141": -122.38451
+  },
+  {
+    "True Hope": "Emergency Receiving Center",
+    "LIHI": "Real Escape from the Sex Trade",
+    "Tiny House Village": "Showers/Laundry/Restrooms",
+    "": "",
+    "1714 E Yesler Way Seattle, WA 98122": "314 Bell Street, Seattle, WA 98121",
+    "47.601829": "",
+    "-122.310141": "",
+    "undefined": "M-Th 2pm-8pm"
+  },
+  {
+    "True Hope": "Women's Referral Center",
+    "LIHI": "Catholic Community Services",
+    "Tiny House Village": "Showers/Laundry/Restrooms",
+    "": "",
+    "1714 E Yesler Way Seattle, WA 98122": "2030 3rd Ave, Seattle, WA 98101",
+    "47.601829": "",
+    "-122.310141": "",
+    "undefined": "daily 6-9pm"
+  },
+  {
+    "True Hope": "Men's Emergency response",
+    "LIHI": "King County DCHS",
+    "Tiny House Village": "Restrooms",
+    "": "",
+    "1714 E Yesler Way Seattle, WA 98122": "",
+    "47.601829": "",
+    "-122.310141": "",
+    "undefined": "daily 7:00pm-7:00am"
+  },
+  {
+    "True Hope": "Drop-In Resource Center",
+    "LIHI": "Abundance of Hope",
+    "Tiny House Village": "Showers/Laundry/Restrooms",
+    "": "",
+    "1714 E Yesler Way Seattle, WA 98122": "",
+    "47.601829": "",
+    "-122.310141": "",
+    "undefined": "M-F 9am-5pm"
+  },
+  {
+    "True Hope": "Emergency Services",
+    "LIHI": "Friends of Youth",
+    "Tiny House Village": "Showers/Laundry/Restrooms",
+    "": "",
+    "1714 E Yesler Way Seattle, WA 98122": "16225 NE 87th Street, Suite A-1, Redmond WA 98052",
+    "47.601829": "",
+    "-122.310141": "",
+    "undefined": "Drop-in daytime hours, 8:30pm-8am overnight shelter hours"
+  },
+  {
+    "True Hope": "Family Center",
+    "LIHI": "Mary's Place",
+    "Tiny House Village": "Showers/Laundry/Restrooms",
+    "": "",
+    "1714 E Yesler Way Seattle, WA 98122": "1155 North 130th Street Seattle, WA 98133",
+    "47.601829": "",
+    "-122.310141": "",
+    "undefined": "Drop-in M-F 7am-5pm"
+  },
+  {
+    "True Hope": "Day Center ",
+    "LIHI": "Union Gospel Mission ",
+    "Tiny House Village": "Showers/Restrooms/ Laundry (?) ",
+    "": "",
+    "1714 E Yesler Way Seattle, WA 98122": "318 Second Ave. Extension S. Seattle, WA 98104 ",
+    "47.601829": "",
+    "-122.310141": "",
+    "undefined": "M-F 2-4 p.m. "
+  },
+  {
+    "True Hope": "Aurora Commons ",
+    "LIHI": "?",
+    "Tiny House Village": "? ",
+    "": "",
+    "1714 E Yesler Way Seattle, WA 98122": "8914 Aurora Ave. N. Seattle, WA 98103 ",
+    "47.601829": "",
+    "-122.310141": "",
+    "undefined": "M-W & Th. 10 a.m. - 1p.m., Women Only: 5-9 p.m., Men's Night: Mon. 6-9 p.m. "
+  },
+  {
+    "True Hope": "Bread of Life Mission ",
+    "LIHI": "?",
+    "Tiny House Village": "? ",
+    "": 1,
+    "1714 E Yesler Way Seattle, WA 98122": "97 S. Main St. Seattle, WA 98104 ",
+    "47.601829": "",
+    "-122.310141": "",
+    "undefined": "M-F 9:30 a.m. - 3 p.m. "
+  },
+  {
+    "True Hope": "Jefferson Day Center ",
+    "LIHI": "King County ",
+    "Tiny House Village": "Restrooms/Showers/Laundry ",
+    "": "",
+    "1714 E Yesler Way Seattle, WA 98122": "420 Fourth Ave. Seattle, WA 98104 ",
+    "47.601829": "",
+    "-122.310141": "",
+    "undefined": "M-F 7 a.m. - 7 p.m., "
+  },
+  {
+    "True Hope": "Immanuel Community Services",
+    "LIHI": "Immanuel Lutheran Church",
+    "Tiny House Village": "Restrooms/Showers/Laundry",
+    "": 1,
+    "1714 E Yesler Way Seattle, WA 98122": "1215 Thomas St, Seattle, WA 98109",
+    "47.601829": 47.620656,
+    "-122.310141": -122.332141,
+    "undefined": "Adults "
+  },
+  {
+    "True Hope": "Urban Rest Stop - University District",
+    "LIHI": "LIHI",
+    "Tiny House Village": "Restrooms/Showers/Laundry",
+    "": 1,
+    "1714 E Yesler Way Seattle, WA 98122": "1415 NE 43rd Street, Seattle, WA 98105",
+    "47.601829": 47.659266,
+    "-122.310141": -122.312375,
+    "undefined": "Anyone"
+  },
+  {
+    "True Hope": "Women's Wellness Center",
+    "LIHI": "Catholic Community Services",
+    "Tiny House Village": "Restrooms/Showers/Laundry",
+    "": 1,
+    "1714 E Yesler Way Seattle, WA 98122": "1900 2nd Ave., Seattle, WA 98101",
+    "47.601829": 47.611173,
+    "-122.310141": -122.340438,
+    "undefined": "Can do laundry once a week. "
+  },
+  {
+    "True Hope": "Elizabeth Gregory Home",
+    "LIHI": "University Lutheran Church ",
+    "Tiny House Village": "Restrooms/Showers/Laundry",
+    "": 1,
+    "1714 E Yesler Way Seattle, WA 98122": "1604 NE 50th St, Seattle, WA 98105",
+    "47.601829": 47.665405,
+    "-122.310141": -122.310472,
+    "undefined": "Have to register as a client here. Have to sign up in person.  "
+  },
+  {
+    "True Hope": "Hygiene Center",
+    "LIHI": "Street Youth Ministries",
+    "Tiny House Village": "Restrooms/Showers/Laundry",
+    "": 1,
+    "1714 E Yesler Way Seattle, WA 98122": "4540 15th Ave. NE, Seattle, WA 98105",
+    "47.601829": 47.662605,
+    "-122.310141": -122.311637,
+    "undefined": "Ages 13-26"
+  },
+  {
+    "True Hope": "Women's Day Center",
+    "LIHI": "Mary's Place",
+    "Tiny House Village": "Restrooms/Showers",
+    "": 0,
+    "1714 E Yesler Way Seattle, WA 98122": "1830 9th Ave. Seattle, WA 98101",
+    "47.601829": 47.615524,
+    "-122.310141": -122.333971,
+    "undefined": "Women "
+  },
+  {
+    "True Hope": "Jackson Street Day Center ",
+    "LIHI": "YouthCare",
+    "Tiny House Village": "Restrooms/Showers/Laundry ",
+    "": 1,
+    "1714 E Yesler Way Seattle, WA 98122": "3722 S. Hudson Street Seattle, WA 98118",
+    "47.601829": 47.557367,
+    "-122.310141": -122.285011,
+    "undefined": "Ages 16-24 "
+  }
+]
