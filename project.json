@@ -2,11 +2,11 @@
   "s3": {
     "stage": {
       "bucket": "projects-staging.seattletimes.com",
-      "path": ""
+      "path": "olympian-colors"
     },
     "live": {
       "bucket": "projects.seattletimes.com",
-      "path": ""
+      "path": "2020/local/coronavirus-restrooms-showers-hygiene"
     }
   },
   "title": "",
@@ -18,5 +18,5 @@
   "sheets": ["1CCjkJxvY6z2EM6-z2VHHRyPxjD2SGcVfk3z2QQZ5hZ4"],
   "docs": [],
   "embedded": true,
-  "production": false
+  "production": true
 }

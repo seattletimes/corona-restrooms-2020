@@ -15,29 +15,31 @@
     <responsive-child class="map-container">
             <div class="outmost">
               <section class="chatter">
-                <h1>If you don't have a home, where can you find a public restroom to wash your hands?</h1>
-                <p>The Seattle Times chose not to include city-funded or supported sites that our reporting
-                  identified as not actually allowing access to the general public. Some of these sites included
-                  are population specific, ie, they are only for women or young adults.</p>
+                <h2>If you don't have a home, where can you find a public restroom to wash your hands?</h2>
+                <p>Below is a list of locations the city of Seattle operates or funds that offer public restrooms,
+                  showers and/or laundry facilities. But most offer very limited options.</p>
               </section>
 
               <div class="colorKey">
-                <div>Key:</div>
-                <div class="key"><div class="color laundry"></div> Laundry, showers and restrooms available</div>
-                <div class="key"><div class="color showers"></div> Showers and restrooms available</div>
-                <div class="key"><div class="color restrooms"></div> Restrooms available</div>
+                <div>Available facilities:</div>
+                <div class="key"><div class="color restrooms"></div> Restrooms</div>
+                <div class="key"><div class="color showers"></div> Showers and restrooms</div>
+                <div class="key"><div class="color laundry"></div> Laundry, showers and restrooms</div>
+
+
               </div>
 
               <div class="buttonContainer">
-                <div class="button selected" id="all">See all available facilities</div>
-                <div class="button" id="pub">See only publicly available facilities</div>
-                <div class="button" id="open">See only 24-hour facilities</div>
+                <div class="button selected" id="all">All sites</div>
+                <div class="button" id="spec">Specific population sites*</div>
+                <div class="button" id="pub">Sites available to everyone</div>
+                <div class="button" id="open">Sites open 24/7</div>
               </div>
 
               <div class="aspect-ratio-outer">
                 <div class="aspect-ratio-inner">
 
-                  <leaflet-map zoom=10>
+                  <leaflet-map zoom=10.5>
                     <tile-layer layer="cartoPositron"></tile-layer>
                   </leaflet-map>
 
@@ -46,8 +48,20 @@
 
 
               <div class="source">
-                <span style="visibility:hidden;">Source</span>
+                <div>*The Seattle Times chose to present separately the city-funded or supported sites that our
+                  reporting identified as not actually allowing access to the general public. Some of these sites
+                  included are population specific, ie, they are only for women or young adults.</div><br>
+                <span>Source: city of Seattle</span>
                 <span class="credit">LAUREN FLANNERY / THE SEATTLE TIMES</div>
+
+
+            <div class="how">
+              <h3>How we reported this graphic</h3>
+              <p>The Seattle Times asked the city of Seattle to provide a list of all of the public places where people can wash their hands, take a shower or use the restroom in Seattle. After receiving the city’s list, The Seattle Times contacted every homeless service provider to confirm information. Some service providers and locations were removed for the following reasons: only registered residents can access hygiene services (for example, the city included tiny house villages on its list, which are not open to the general public), the location is not designed to serve as a public drop-in center, and some park restrooms are currently closed due to long-term maintenance. From there, the list has been filtered to indicate if any member of the general public can access the facility or if a section of the population, like women and children, can access the services. A Seattle Times analysis showed that out of more than 100 locations, only seven offer shower services to the general public and only six have public restrooms open 24/7. And out of those six restrooms, three have running water.</p>
+
+              <p>	&ndash; <i>Anna Patrick: <a href="mailto:apatrick@seattletimes.com">apatrick@seattletimes.com</a>;
+                on Twitter: <a href="https://twitter.com/annaleapatrick?lang=en">@annaleapatrick</a>.</i></p>
+            </div>
             </div>
           </responsive-child>
         <script>

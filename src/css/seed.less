@@ -8,13 +8,23 @@ body {
   max-width: 630px;
   font-size: 16px;
 }
+
+
+.chatter {
+  h2 {
+    font-size: 20px;
+    line-height: 1.3em;
+    text-align: center;
+  }
+}
+
 .outmost {
   border-top: 1px solid @df-border-gray;
   border-bottom: 1px solid @df-border-gray;
   padding: 8px 0;
   margin: 20px auto;
   max-width: 960px;
-  padding-bottom: 0;
+  padding-bottom: 15px;
   clear: both;
 }
 .aspect-ratio-outer {
@@ -63,19 +73,19 @@ body {
 .restrooms-icon {
   border: 1px solid rgba(0, 0, 0, .5);
   border-radius: 100%;
-  background-color: green;
+  background-color: #cbc9e2;
 }
 
 .showers-icon {
   border: 1px solid rgba(0, 0, 0, .5);
   border-radius: 100%;
-  background-color: blue;
+  background-color: purple;
 }
 
 .laundry-icon {
   border: 1px solid rgba(0, 0, 0, .5);
   border-radius: 100%;
-  background-color: red;
+  background-color: #361c70;
 }
 @import "leaflet-tweaks";
 @import "legend";
@@ -85,32 +95,45 @@ body {
 
 
 .colorKey {
+  margin-bottom: 5px;
+  padding: 2px;
 
   .key {
-    display: inline-block;
     vertical-align: top;
+    display: inline-block;
+    margin-right: 8px;
+    padding: 2px;
 
     .color {
       width: 20px;
       height: 20px;
+      border-radius: 50%;
       display: inline-block;
       vertical-align: top;
 
-      &.restrooms { background-color: green; }
-      &.showers { background-color: blue; }
-      &.laundry { background-color: red; }
+      &.restrooms { background-color: #cbc9e2; }
+      &.showers { background-color: purple; }
+      &.laundry { background-color: #361c70; }
     }
   }
 }
 
 .buttonContainer {
+  margin-bottom: 5px;
+  
   .button {
     display: block;
     width: 100%;
     text-align: center;
     border: 1px solid #aaa;
-    margin: 3px 0;
+    margin: 2px 0;
     border-radius: 5px;
+    padding: 3px 4px;
+
+    @media @desktop-up {
+      width: 49.5%;
+      display: inline-block;
+    }
 
 
     &.selected { background-color: #eee; }
@@ -121,4 +144,12 @@ body {
     cursor: pointer;
   }
 
+}
+
+.how {
+  border: 3px solid #aaa;
+  padding: 1em;
+
+  h3 { margin: 0; color: #828282; }
+  p { margin-bottom: 0; }
 }

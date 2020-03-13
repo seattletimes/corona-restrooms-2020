@@ -29,7 +29,7 @@ window.course.forEach(function(data) {
 
 
 
-  dotColor = (data.Opentogeneralpublic === 1) ? "pub" : '';
+  dotColor = (data.Opentogeneralpublic === 1) ? "pub" : 'spec';
   dotColor = (data.AllHourAccess === 1) ? (dotColor + space() + "open") : dotColor;
 
 
@@ -53,7 +53,6 @@ window.course.forEach(function(data) {
     <br>
     Address: <a href="https://www.google.com/maps/search/?api=1&query=${data.Latitude},${data.Longitude}" target="_blank" rel="noopener noreferrer"/>${data.ADDRESS}</a><br>
 
-    Agency: ${data.AgencyName}<br>
     Hygiene Services: ${data.HygieneServices}<br>
     Available to: ${data.WhoCanAccess}<br>
     Hours: ${data.HoursofOperation}<br>
@@ -67,38 +66,47 @@ window.course.forEach(function(data) {
 markergroup.addTo(map);
 
  map.scrollWheelZoom.disable();
- map.fitBounds(markergroup.getBounds())
+ // map.fitBounds(markergroup.getBounds())
+
+ // map.setZoom(16);
 
 var filterMarkers = function() {
   // console.log( this.getAttribute("id") );
+  for (var i = 0; i < filterButtons.length; i++) {
+     filterButtons[i].classList.remove("selected");
+   }
   this.classList.add("selected");
   var all_markers = document.getElementsByClassName("marker");
 
   if ( this.getAttribute("id") === "open" ) {
     var open_markers = document.getElementsByClassName("open");
-
     for (var i = 0; i < all_markers.length; i++) {
        all_markers[i].style.visibility = "hidden";
-   }
-
-   for (var i = 0; i < open_markers.length; i++) {
+    }
+    for (var i = 0; i < open_markers.length; i++) {
       open_markers[i].style.visibility = "visible";
-  }
+    }
 
 
 
   } else if ( this.getAttribute("id") === "pub" ) {
     var pub_markers = document.getElementsByClassName("pub");
-    console.log( pub_markers );
+    for (var i = 0; i < all_markers.length; i++) {
+         all_markers[i].style.visibility = "hidden";
+     }
+     for (var i = 0; i < pub_markers.length; i++) {
+        pub_markers[i].style.visibility = "visible";
+     }
 
+
+} else if ( this.getAttribute("id") === "spec" ) {
+    var spec_markers = document.getElementsByClassName("spec");
     for (var i = 0; i < all_markers.length; i++) {
        all_markers[i].style.visibility = "hidden";
+    }
+   for (var i = 0; i < spec_markers.length; i++) {
+      spec_markers[i].style.visibility = "visible";
    }
-
-   for (var i = 0; i < pub_markers.length; i++) {
-      pub_markers[i].style.visibility = "visible";
-  }
-
 
   } else {
     for (var i = 0; i < all_markers.length; i++) {
@@ -112,6 +120,4 @@ var filterButtons = document.getElementsByClassName("button");
 
  for (var i = 0; i < filterButtons.length; i++) {
     filterButtons[i].addEventListener('click', filterMarkers, false);
-
-    filterButtons[i].classList.remove("selected");
 }
